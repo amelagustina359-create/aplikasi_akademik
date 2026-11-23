@@ -33,4 +33,5 @@ Dialog akan tertutup dan `showDialog<bool>` mengembalikan `null`, bukan `true` a
 ## 3. Hasil Code Review Sejawat
 
 **Nama Reviewer:** Zahratul Diniah
-**Catatan/Saran:** (isi catatan dari Zahratul setelah dia mencoba aplikasimu)
+**Catatan/Saran:** Review sedang menunggu. Catatan mandiri dari saya: Program Studi
+belum wajib diisi, dan data belum tersimpan permanen.
