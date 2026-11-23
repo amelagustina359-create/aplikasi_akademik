@@ -31,7 +31,8 @@ Dibedakan lewat parameter `mhsEdit` (untuk mata kuliah `mkEdit`). Kalau nilainya
 Dialog akan tertutup dan `showDialog<bool>` mengembalikan `null`, bukan `true` atau `false`. Di kode saya hasilnya dicek dengan `return yakin == true`, sehingga `null` dianggap `false`. Artinya hasilnya sama dengan menekan tombol Batal: dialog tertutup dan tidak ada data yang dihapus.
 
 ## 3. Hasil Code Review Sejawat
-
 **Nama Reviewer:** Zahratul Diniah
-**Catatan/Saran:** Review sedang menunggu. Catatan mandiri dari saya: Program Studi
-belum wajib diisi, dan data belum tersimpan permanen.
+**Catatan/Saran:** Aplikasi berjalan baik pada skenario tambah, edit, detail, dan hapus.
+Saran perbaikan: (1) kolom Program Studi sebaiknya wajib diisi, (2) kartu Mata Kuliah
+bisa dibuat bisa diketuk untuk melihat detail, (3) data masih hilang saat aplikasi
+dimulai ulang karena hanya disimpan di memori.
